@@ -11,16 +11,16 @@ fnc int main()
 
 {
 
-     // This is a comment
+// This is a comment
 
-     Writeln("Hello World")
+Writeln("Hello World");
 
-      var bool shouldClose = false    
-      if (shoulClose) 
-      {
-          return 1
-      }
+var bool shouldClose = false;    
+if (shoulClose) 
+{
+     return 1;
+}
 
-     return 0   // --> "0" means the program was terminated succesfully. If you return 1 the program will stop and can be used to handle errors
+return 0;   // --> "0" means the program was terminated succesfully. If you return 1 the program will stop and can be used to handle errors
     
 }
